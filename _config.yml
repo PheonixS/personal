@@ -25,7 +25,7 @@ description: >-
 github_username: PheonixS
 minimal_mistakes_skin: air
 search: true
-website: https://pheonixs.nl
+url: "https://pheonixs.nl"
 
 # Build settings
 markdown: kramdown
