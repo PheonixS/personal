@@ -14,9 +14,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: PheonixS live blog
-email: 4414271+PheonixS@users.noreply.github.com
+email: alex@pheonixs.nl
 description: >-
-  Welcome to my blog of Alex Kashintsev - PheonixS!
+  Welcome to the blog of Alex Kashintsev - PheonixS!
   Here, as an SRE, I'm dumping thoughts, everyday ideas,
   and tech challenges. No frills, just a space
   where musings meet microelectronics. Join me in this casual
