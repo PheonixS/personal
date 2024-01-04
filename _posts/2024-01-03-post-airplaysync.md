@@ -36,4 +36,6 @@ Incorrectly configured [SN74LVC1T45DBVT](https://www.ti.com/product/SN74LVC1T45/
 
 ![That should not be like this](/assets/images/03012024snip1.JPG)
 
-Anyway, I was able to find what's wrong with this with multimeter - I just added resistor like this (and I have to cut trace a bit 🤔).
+Anyway, I was able to find what's wrong with this with multimeter - I just added resistor like this (yeah, I have to cut trace a bit with scalpel as well 🤔).
+
+![Added resistor](/assets/images/photo_5240040412893271097_y.jpg)
