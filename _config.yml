@@ -93,6 +93,8 @@ defaults:
       comments: true
       share: true
       related: true
+      toc: true
+      toc_icon: "network-wired"
   # _pages
   - scope:
       path: "_pages"

@@ -8,13 +8,16 @@ tags:
   - ic
 ---
 
+Beware of Trolls! This post become **technical** very fast 😅
+{: .notice--primary}
+
 Because some of my friends asked me about the mini project I'm currently working here it is. I created a website for it 😎
 
 It short for the last ~3 months I was busy with repurposing old DVD player: [Harman-Kardon DVD27](/assets/pdfs/dvd_27.pdf).
 
 You might ask me why? Well, I bought myself a set of fancy speakers - and want to connect to them using Apple Airplay 2 - so I can stream from my phone.
 
-Basically my initial idea was to:
+## Initial idea
 
 - Repurpose DVD27 somehow to control it's fancy [VFD display](https://en.wikipedia.org/wiki/Vacuum_fluorescent_display).
 
@@ -26,19 +29,25 @@ Basically my initial idea was to:
 
 - Control my old receiver using [Compulink](https://github.com/jcj83429/jvc_compulink).
 
-Heart of my project is Shariport Sync:
+## Heart of the project - Shariport Sync
 
 - [Shariport Sync](https://github.com/mikebrady/shairport-sync) which can run on Raspberry PI (even on Zero and Zero 2) and provide Airplay service.
 
 - It can write Metadata of current track in Linux pipe - and I can parse it and do whenever I want with that data.
 
-Currently I'm able to:
+## What was done
 
 - Display current track on VFD screen - I'm using unicode library to convert anything to Latin text (I found it very useful because I listen to a lot of tracks in JPOP with non-latin characters 😊).
 
 - Woke up/put in standby VFD and power source - it has built in power control pin for power source, and uses separate pin for control +3V3 line of front panel.
 
 - Receive metadata from Shariport: events like connection established, disconnect, track name.
+
+## What is the goal
+
+- Control everything using single PCB
+
+## Revision 1
 
 However my first revision of PCB (yes, I made a PCB using EasyEDA) - had incorrectly configured DIR pin 😂 (which is set conversion from 3V3 to 5V).
 
@@ -51,3 +60,5 @@ Anyway, I was able to find what's wrong with this with multimeter - I just added
 ![Added resistor](/assets/images/photo_5240040412893271097_y.jpg){: width="250" }
 
 I'll continue in the next articles 🙂
+
+[Next article in series]({% post_url 2024-01-04-post-step1-vfd-and-spi %})
