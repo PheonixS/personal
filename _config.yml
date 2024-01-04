@@ -26,6 +26,7 @@ github_username: PheonixS
 minimal_mistakes_skin: air
 search: true
 url: "https://pheonixs.nl"
+repository: "PheonixS/personal"
 
 # Build settings
 markdown: kramdown
@@ -60,10 +61,20 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+comments:
+  provider: "giscus"
+  giscus:
+    repo_id: "R_kgDOLAanEQ"
+    category_name: "Announcements"
+    category_id: "DIC_kwDOLAanEc4CcMv6"
+    discussion_term: "pathname"
+    reactions_enabled: "1"
+    theme: "light"
+
 author:
-  name   : "Alex Kashintsev"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "SRE with passion about microelectronics and fishing"
+  name: "Alex Kashintsev"
+  avatar: "/assets/images/bio-photo.jpg"
+  bio: "SRE with passion about microelectronics and fishing"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -71,6 +82,9 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin-in"
       url: "https://www.linkedin.com/in/pheonixs/"
+    - label: "Buy me a Ko-Fi"
+      icon: "fas fa-fw fa-mug-hot"
+      url: "https://ko-fi.com/pheonixs"
 
 footer:
   links:
@@ -80,7 +94,9 @@ footer:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin-in"
       url: "https://www.linkedin.com/in/pheonixs/"
-
+    - label: "Ko-Fi"
+      icon: "fas fa-fw fa-mug-hot"
+      url: "https://ko-fi.com/pheonixs"
 defaults:
   # _posts
   - scope:
