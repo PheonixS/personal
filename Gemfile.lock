@@ -147,7 +147,6 @@ DEPENDENCIES
   jekyll (~> 4.3.3)
   jekyll-algolia
   jekyll-feed
-  jekyll-gist
   jekyll-include-cache
   jekyll-paginate
   jekyll-sitemap
