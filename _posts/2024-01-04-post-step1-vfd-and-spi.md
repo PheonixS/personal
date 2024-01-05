@@ -6,6 +6,7 @@ tags:
   - pcb
   - vfd
   - ic
+  - raspberry
 ---
 
 My journey started with analyzing original wiring of [DVD 27](/assets/pdfs/dvd_27.pdf).
