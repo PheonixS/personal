@@ -85,4 +85,4 @@ Here is schematic for breadboard:
 
 I'll continue in the next posts how code looks like and how I found that SPI0 port was actually dead on my Raspberry PI 😂 And how to connect negative power pins from Power supply to front panel.
 
-[Next article in series]({% post_url 2024-01-05-post-step2-vfd-spi-debug %})
+[Next article in series]({% post_url 2024-01-06-post-step2-vfd-spi-debug %})
