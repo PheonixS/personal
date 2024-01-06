@@ -4,7 +4,7 @@ title: "About me"
 ---
 
 Welcome to my blog!  
-I'm Alex, a Site Reliability Engineer (SRE) deeply passionate about microelectronics and fishing.
+I'm Alex, a Site Reliability Engineer (SRE) deeply passionate about microelectronics and biking.
 
 ## What to Expect
 

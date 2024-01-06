@@ -6,6 +6,7 @@ tags:
   - pcb
   - vfd
   - ic
+  - raspberry
 ---
 
 My journey started with analyzing original wiring of [DVD 27](/assets/pdfs/dvd_27.pdf).
@@ -45,9 +46,7 @@ ALl recent Raspberry PIs supports GPIO. I found website which groups pins based 
 GPIO pins I need to use are:
 
 - 10 - MOSI - send data to VFD controller
-
 - 11 - SCLK - clock
-
 - 8 - CE0 - Chip Enable
 
 Here they are on screenshot:
@@ -85,3 +84,5 @@ Here is schematic for breadboard:
 ![Schematic](/assets/images/04012024-1716-shematic.JPG){: width="350" }
 
 I'll continue in the next posts how code looks like and how I found that SPI0 port was actually dead on my Raspberry PI 😂 And how to connect negative power pins from Power supply to front panel.
+
+[Next article in series]({% post_url 2024-01-06-post-step2-vfd-spi-debug %})

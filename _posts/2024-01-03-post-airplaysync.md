@@ -38,9 +38,7 @@ You might ask me why? Well, I bought myself a set of fancy speakers - and want t
 ## What was done
 
 - Display current track on VFD screen - I'm using unicode library to convert anything to Latin text (I found it very useful because I listen to a lot of tracks in JPOP with non-latin characters 😊).
-
 - Woke up/put in standby VFD and power source - it has built in power control pin for power source, and uses separate pin for control +3V3 line of front panel.
-
 - Receive metadata from Shariport: events like connection established, disconnect, track name.
 
 ## What is the goal
