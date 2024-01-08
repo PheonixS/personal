@@ -76,7 +76,7 @@ We don't know however how letters are encoded, but on the page 8 there is test m
 ![Data settings for testing](/assets/images/06012024-1911-data-format.JPG){: width="400" }
 
 Then the command for the test mode would be like this:
-`01001011` - where (starting from Most Significant Byte - MSB to Least Significant Byte - LSB):
+`01001000` - where (starting from Most Significant Byte - MSB to Least Significant Byte - LSB):
 
 - `01` - type of command.
 - `00` - "not relevant".
@@ -187,3 +187,5 @@ Decoded SPI protocol from my oscilloscope, LSB decoder enabled
 {: .text-center}
 
 Let's continue in further posts, and actually display something meaningful on the display.
+
+[Next article in series]({% post_url 2024-01-08-post-step3-vfd-text %})
