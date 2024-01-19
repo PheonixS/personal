@@ -40,7 +40,10 @@ While writing this post I realized that I should have used level shifter in my e
 
 I will use Texas Instruments [TXB0102DCUT](/assets/pdfs/2303011207_Texas-Instruments-TXB0102DCUT_C2677366.pdf). This IC is a  2-Bit Bidirectional Voltage-Level Translator. Why 2 bit? Because first bit will be used to control front panel standby LED, another bit will be used by Compulink. Please check Page 24 for "Application and Implementation" section for details about the product.
 
-Here are some notes while drafting schematic and PCB.
+![schematic](/assets/images/19012024-1543-compulink.PNG){: .align-center }
+
+- `COMPULINK` connects to the any GPIO pin of Raspberry PI (which is 3.3V). In code snippets below, I used GPIO pin 9.
+- `COMPULINK_EXT` connects to the 3.5mm female port on PCB. Signal will be converted to 5V voltage domain.
 
 ### Do we need to control output-enable pin?
 
