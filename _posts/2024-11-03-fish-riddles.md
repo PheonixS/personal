@@ -11,8 +11,6 @@ tags:
   - websockets
 ---
 
-# Backstory
-
 In early October 2024, my wife found an old singing fish from the early 2000s at a thrift store: the [Big Mouth Billy Bass](https://en.wikipedia.org/wiki/Big_Mouth_Billy_Bass). This fish can sing two songs and move its head, mouth, and tail in rhythm with the music, although the movement is infrequent.
 
 This Fish Riddle Maker became my pet project for almost all evenings during the last two weeks of October 2024.
