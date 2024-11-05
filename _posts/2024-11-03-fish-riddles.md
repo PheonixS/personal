@@ -1,5 +1,6 @@
 ---
 title: "Post: Halloween Fish-formed Riddle-maker 🦇"
+last_modified_at: 2024-11-05
 categories:
   - Blog
 tags:
@@ -191,6 +192,10 @@ Feedback from friends revealed:
 
 # Acknowledgements
 Special thanks to [my wife](https://www.instagram.com/olnorka/) for being my QA tester. Her help was invaluable. My friend, Mr. V, suggested implementing consistent language use, which I added. Mr. O and Mr. M suggested adding lip-sync, which was challenging but rewarding to implement.
+
+# Demo
+
+Here a short demo of a [Fish Riddle](https://youtu.be/fznJSKNcpw8).
 
 # What's Next?
 
